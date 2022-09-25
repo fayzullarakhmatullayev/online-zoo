@@ -1,0 +1,46 @@
+.header {
+  background-color: $black;
+  color: $white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  &_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+  }
+  &_left {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    .logo {
+      width: 82px;
+      height: 52px;
+      display: block;
+    }
+  }
+  &_menu {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+  }
+  &_link {
+    color: $white;
+    font-weight: 500;
+    line-height: 1.4;
+    &.active_link {
+      background: $orange;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+  &_right {
+    font-weight: 500;
+    line-height: 1.4;
+  }
+}

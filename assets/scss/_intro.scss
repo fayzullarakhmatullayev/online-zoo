@@ -1,0 +1,41 @@
+.intro {
+  background: url("/assets/images/giant_panda.jpg") no-repeat center center /
+    cover;
+  width: 100%;
+  padding: 166px 0 100px;
+  &_inner {
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+
+    h1 {
+      font-weight: 700;
+      font-size: 106.496px;
+      line-height: 75%;
+      text-align: center;
+      color: $white;
+      z-index: 10;
+      text-transform: uppercase;
+      span {
+        color: $yellow;
+      }
+      position: relative;
+      margin-bottom: 60px;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 465px;
+        height: 465px;
+        left: -73px;
+        top: -74px;
+        background: $orange;
+        border-radius: 50%;
+        z-index: -1;
+      }
+    }
+  }
+  &_btn {
+    margin: 0 auto;
+  }
+}

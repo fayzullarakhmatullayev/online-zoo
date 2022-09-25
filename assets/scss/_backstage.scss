@@ -1,0 +1,38 @@
+.backstage {
+  position: relative;
+  width: 100%;
+  padding: 140px 0 90px;
+  &_wrapper {
+    display: flex;
+    gap: 87px;
+  }
+  &_image {
+    max-width: 609px;
+    width: 100%;
+    display: block;
+  }
+  &_title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  &_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+  }
+  &_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 54px 0 34px;
+  }
+  &_flower {
+    position: absolute;
+    top: 12px;
+    right: -93px;
+    width: 293px;
+    height: 605px;
+  }
+}
