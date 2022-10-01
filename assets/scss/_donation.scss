@@ -1,0 +1,117 @@
+.donation {
+  background: $orange_grad;
+  padding: 69px 0 100px;
+  &_block {
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 41px 99px 59px;
+    &__title {
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #fe9013;
+      margin-bottom: 30px;
+    }
+    &__subtitle {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 120%;
+      color: $black_blue;
+      margin-bottom: 40px;
+    }
+    &__notation {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 130%;
+      color: $black_blue;
+      margin-bottom: 10px;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      margin-bottom: 60px;
+      a {
+        border-bottom: 1px solid #fe9013;
+        color: $black_blue;
+      }
+    }
+  }
+  &_works {
+    margin-bottom: 60px;
+    &__title {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 130%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    &__wrapper {
+      max-width: 763px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__arrow {
+      width: 69px;
+      height: 35px;
+      display: block;
+      margin-top: 60px;
+    }
+  }
+  &_card {
+    max-width: 168px;
+    width: 100%;
+    &:nth-child(1) {
+      .donation_card__top {
+        img {
+          display: block;
+          height: 60px;
+          width: 108px;
+        }
+      }
+    }
+    &:nth-child(3) {
+      .donation_card__top {
+        img {
+          display: block;
+          width: 86px;
+          height: 95px;
+        }
+      }
+    }
+    &:nth-child(5) {
+      .donation_card__top {
+        img {
+          display: block;
+          width: 125px;
+          height: 72px;
+        }
+      }
+    }
+    &__top {
+      width: 168px;
+      height: 168px;
+      border-radius: 5px;
+      border: 1px solid #fe9013;
+      background: $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    &__body {
+      padding-top: 30px;
+      p {
+        font-size: 16px;
+        line-height: 140%;
+      }
+    }
+  }
+  .btn_donation {
+    margin: 0 auto;
+  }
+}
